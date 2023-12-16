@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>getElementById example</title>
+
+<script type="text/javascript">
+
+function changeText(text)
+{
+ elem = document.getElementById('textid');
+ elem.innerHTML = text;
+ console.log(elem)
+}
+</script>
+</head>
+
+<body>
+<div id='textid'>I'm a Text</div>
+<button onclick="changeText('Mkyong1');">Mkyong1</button>
+<button onclick="changeText('Mkyong2');">Mkyong2</button>
+</body>
+</html>
